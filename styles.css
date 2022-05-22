@@ -67,8 +67,6 @@ html{
 @media (max-width: 600px) {
     .middle{
         max-width: 600px;
-        padding-right: var(--offset);
-        padding-left: calc(var(--offset) / 4);
     }
     #header{
         width: 100%;
@@ -77,11 +75,11 @@ html{
     }
     #logo-header{
         width: calc(100% / 2);
-        margin-right: calc(var(--offset) / 2);
+      /*   margin-right: calc(var(--offset) / 2); */
     }
     .navigation{
         width: calc(100% / 2 - var(--offset));
-        margin-right: calc(var(--offset) / 2);
+      /*   margin-right: calc(var(--offset) / 2); */
     }
     #hero{
         background-image: linear-gradient(to top, rgba(209, 210, 211, 0.781), 
@@ -207,24 +205,24 @@ html{
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        margin-right: var(--offset);
-        margin-left: calc(var(--offset) / 4);
+/*         margin-right: var(--offset);
+        margin-left: calc(var(--offset) / 4); */
     }
     .benefit {
         width: calc(100% / 1);
     }
     .about-us{
         max-width: 600px;
-        margin-right: var(--offset);
-        margin-left: calc(var(--offset) / 4);
+/*         margin-right: var(--offset);
+        margin-left: calc(var(--offset) / 4); */
         margin-top: calc(var(--offset) / 4);
     }
     .about-us-title{
         text-align: center;
     }
     .about-us-text{
-        margin-left: calc(var(--offset) / 4);
-        margin-right: var(--offset);
+/*         margin-left: calc(var(--offset) / 4);
+        margin-right: var(--offset); */
         text-align: justify;
     }
     .about-us-image{
@@ -260,12 +258,12 @@ html{
 }
 @media (max-width: 600px) {
     .section-title{
-        margin-right: var(--offset);
-        margin-left: calc(var(--offset) / 4);
+/*         margin-right: var(--offset);
+        margin-left: calc(var(--offset) / 4); */
     }
     .section-subtitle{
-        margin-right: var(--offset);
-        margin-left: calc(var(--offset) / 4);
+/*         margin-right: var(--offset);
+        margin-left: calc(var(--offset) / 4); */
     }
     .subscribe-form{
         display: flex;
@@ -274,8 +272,8 @@ html{
     }
     .subscribe-form-input{
         width: calc(100% / 1);
-        margin-right: var(--offset);
-        margin-left: calc(var(--offset) / 4);
+/*         margin-right: var(--offset);
+        margin-left: calc(var(--offset) / 4); */
         margin-bottom: calc(var(--offset) / 2);
     }
 }
@@ -308,8 +306,8 @@ html{
 @media (max-width: 600px) {
     .reviews{
         max-width: 600px;
-        margin-right: var(--offset);
-        margin-left: calc(var(--offset) / 2);
+/*         margin-right: var(--offset);
+        margin-left: calc(var(--offset) / 2); */
     }
     .review{
         width: calc(100% / 1.1);
@@ -380,8 +378,8 @@ html{
 @media (max-width: 600px) {
     .rate{
         flex-wrap: wrap;
-        margin-right: var(--offset);
-        margin-left: calc(var(--offset) / 2);
+      /*   margin-right: var(--offset);
+        margin-left: calc(var(--offset) / 2); */
     }
     .rate-detail{
         width: calc(100% / 1);
